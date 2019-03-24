@@ -6,7 +6,7 @@ pkill -f gphoto2
 
 # Load v4l2loopback
 echo "Loading v4l2loopback"
-modprobe v4l2loopback
+sudo modprobe v4l2loopback
 
 # Capture, process, output
 echo "Capturing..."
